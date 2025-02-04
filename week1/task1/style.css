@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home, .about, .contact{
+    padding-right: 30px;
+}
+
+.main{
+    flex: 1;
+} 
+    
+section{
+    margin: 10px;
+    padding: 10px;
+}
+    
+.intro{
+    padding: 10px 10px 10px 0;
+}
+
+li{
+    padding: 5px;
+}
+
+.footer{
+    height: 50px;
+    background-color: rgb(46, 45, 45);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
