@@ -1,0 +1,3 @@
+Que-7:	What is a callback function, and why is it important in JavaScript?
+
+Ans: Callback Function: 

@@ -1,0 +1,16 @@
+Que-6:	What is the difference between var, let, and const in JavaScript?
+
+Ans: var: The scope of var is limited to the function where it is declared and can be re-declare and re-assign.
+Example:
+var x = 10;
+var x = 20;
+x = 30;
+
+let: The scope of let is limited to the block where it is declared and can be re-assign but can't re-declare.
+Example:
+let y = 10;
+y = 20;
+
+const: The scope of const is limited to the block where it is declared and can't be re-declare and re-assign.
+Example:
+const z = 50;
