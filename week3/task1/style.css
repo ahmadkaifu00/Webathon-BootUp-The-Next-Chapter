@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/007/141/477/small/city-building-view-at-daytime-free-vector.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.light{
+    width: 150px;
+    background-color: #0c0c0c;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#red, #yellow, #green{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 50%;
+    background-color: #6a6565;
+    opacity: 0.3; 
+    transition: opacity 0.3s ease;
+}
+
+#red.active{
+    background-color: red;
+    opacity: 1;
+}
+
+#yellow.active {
+    background-color: yellow;
+    opacity: 1;
+}
+
+#green.active {
+    background: green;
+    opacity: 1;
+}
+
+#next{
+    margin: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: large;
+}
